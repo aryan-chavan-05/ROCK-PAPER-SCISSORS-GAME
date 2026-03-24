@@ -1,0 +1,85 @@
+/* Universal Style */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+/* Rock paper scissors */
+
+#rock{
+    background-color: palevioletred;
+}
+
+#paper{
+    background-color: violet;
+}
+
+#scissors{
+    background-color: lightblue;
+}
+
+.choice{
+    border-radius: 50%;
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+
+.choice:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+
+/* SCORE BOARD */
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+
+/* msg container */
+
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
